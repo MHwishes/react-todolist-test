@@ -1,12 +1,10 @@
 This repo shows you how to test React component. It is loosely based on Jack Franklin's article ["Testing React Applications"](http://12devsofxmas.co.uk/2015/12/day-2-testing-react-applications/).
 
-![](app/img/react.png)
-
 ## Demo
 
 ```bash
-$ git clone https://github.com/ruanyf/react-testing-demo.git
-$ cd react-testing-demo && npm install
+$ git clone https://github.com/MHwishes/react-todolist-test.git
+$ cd react-todolist-test && npm install
 $ npm start
 $ open http://127.0.0.1:8080
 ```
