@@ -1,21 +1,19 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
-import jsdom from 'jsdom';
+// import {expect} from 'chai';
 import TestUtils from 'react-addons-test-utils';
-import {expect} from 'chai';
-
 import App from '../app/components/App';
 
-describe('DOM Rendering', function (done) {
-  it('When click the Todo item，it should become done', function () {
+describe('DOM Rendering', function () {
+  it('Add an new Todo item, when click the new todo button', function () {
     const app = TestUtils.renderIntoDocument(<App/>);
     const appDOM = findDOMNode(app);
-    const todoItem = appDOM.querySelector('li:first-child span');
-    let isDone = todoItem.classList.contains('todo-done');
-    TestUtils.Simulate.click(todoItem);
-    expect(todoItem.classList.contains('todo-done')).to.be.equal(!isDone);
-    // make the item returns to previous state
-    TestUtils.Simulate.click(todoItem);
+    let todoItemsLength = appDOM.querySelectorAll('.todo-text').length;
+    let addInput = appDOM.querySelector('input');
+    addInput.value = 'Todo four';
+    let addButton = appDOM.querySelector('.add-todo button');
+    TestUtils.Simulate.click(addButton);
+    expect(appDOM.querySelectorAll('.todo-text').length).toBe(todoItemsLength + 1);
   });
 });
 

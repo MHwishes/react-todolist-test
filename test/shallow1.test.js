@@ -1,6 +1,5 @@
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
-import { expect } from 'chai';
 import App from '../app/components/App';
 
 function shallowRender(Component) {
@@ -15,7 +14,7 @@ describe('Shallow Rendering', function() {
     const app = shallowRender(App);
     // component's shallow rendering has props.children
     // 每一个虚拟DOM对象都有props.children属性，它包含一个数组，里面是所有的子组件。
-    expect(app.props.children[0].type).to.equal('h1');
-    expect(app.props.children[0].props.children).to.equal('Todos');
+    expect(app.props.children[0].type).toEqual('h1');
+    expect(app.props.children[0].props.children).toEqual('Todos');
   });
 });

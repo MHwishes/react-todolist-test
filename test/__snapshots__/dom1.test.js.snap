@@ -1,0 +1,1208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DOM Rendering Click the delete button, the Todo item should be deleted 1`] = `
+App {
+  "_reactInternalInstance": ReactCompositeComponentWrapper {
+    "_context": Object {
+      "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+        "aTagInScope": null,
+        "buttonTagInScope": null,
+        "dlItemTagAutoclosing": null,
+        "formTag": null,
+        "listItemTagAutoclosing": null,
+        "nobrTagInScope": null,
+        "pTagInButtonScope": null,
+        "parentTag": Object {
+          "instance": null,
+          "tag": "div",
+        },
+      },
+    },
+    "_currentElement": <App />,
+    "_instance": [Circular],
+    "_isOwnerNecessary": false,
+    "_mountImage": null,
+    "_mountIndex": 0,
+    "_mountOrder": 2,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": ReactDOMComponent {
+      "_currentElement": <div>
+        <h1>
+          Todos
+        </h1>
+        <TodoList />
+        <AddTodo />
+      </div>,
+      "_isOwnerNecessary": false,
+      "_mountImage": null,
+      "_mountIndex": 0,
+      "_nodeWithLegacyProperties": <div
+        data-reactid=".0"
+      >
+        <h1
+          data-reactid=".0.0"
+        >
+          Todos
+        </h1>
+        <ul
+          data-reactid=".0.1"
+        >
+          <li
+            data-reactid=".0.1.$1"
+          >
+            <span
+              class="todo-text "
+              data-reactid=".0.1.$1.0"
+            >
+              Todo two
+            </span>
+            <button
+              class="delete"
+              data-reactid=".0.1.$1.1"
+            >
+               x 
+            </button>
+          </li>
+          <li
+            data-reactid=".0.1.$2"
+          >
+            <span
+              class="todo-text "
+              data-reactid=".0.1.$2.0"
+            >
+              Todo three
+            </span>
+            <button
+              class="delete"
+              data-reactid=".0.1.$2.1"
+            >
+               x 
+            </button>
+          </li>
+        </ul>
+        <div
+          class="add-todo"
+          data-reactid=".0.2"
+        >
+          <input
+            data-reactid=".0.2.0"
+            placeholder="Todo four"
+            type="text"
+          />
+          <button
+            class="add-button"
+            data-reactid=".0.2.1"
+          >
+            Add Todo
+          </button>
+        </div>
+      </div>,
+      "_previousStyle": null,
+      "_previousStyleCopy": null,
+      "_processedContextDev": Object {
+        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+          "aTagInScope": null,
+          "buttonTagInScope": null,
+          "dlItemTagAutoclosing": null,
+          "formTag": null,
+          "listItemTagAutoclosing": null,
+          "nobrTagInScope": null,
+          "pTagInButtonScope": null,
+          "parentTag": Object {
+            "instance": [Circular],
+            "tag": "div",
+          },
+        },
+      },
+      "_renderedChildren": Object {
+        ".0": ReactDOMComponent {
+          "_currentElement": <h1>
+            Todos
+          </h1>,
+          "_isOwnerNecessary": false,
+          "_mountImage": null,
+          "_mountIndex": 0,
+          "_nodeWithLegacyProperties": <h1
+            data-reactid=".0.0"
+          >
+            Todos
+          </h1>,
+          "_previousStyle": null,
+          "_previousStyleCopy": null,
+          "_processedContextDev": Object {
+            "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+              "aTagInScope": null,
+              "buttonTagInScope": null,
+              "dlItemTagAutoclosing": null,
+              "formTag": null,
+              "listItemTagAutoclosing": null,
+              "nobrTagInScope": null,
+              "pTagInButtonScope": null,
+              "parentTag": Object {
+                "instance": [Circular],
+                "tag": "h1",
+              },
+            },
+          },
+          "_renderedChildren": null,
+          "_rootNodeID": ".0.0",
+          "_tag": "h1",
+          "_topLevelWrapper": null,
+          "_unprocessedContextDev": Object {
+            "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+              "aTagInScope": null,
+              "buttonTagInScope": null,
+              "dlItemTagAutoclosing": null,
+              "formTag": null,
+              "listItemTagAutoclosing": null,
+              "nobrTagInScope": null,
+              "pTagInButtonScope": null,
+              "parentTag": Object {
+                "instance": [Circular],
+                "tag": "div",
+              },
+            },
+          },
+          "_warnedAboutRefsInRender": false,
+          "_wrapperState": null,
+        },
+        ".1": ReactCompositeComponentWrapper {
+          "_context": Object {
+            "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+              "aTagInScope": null,
+              "buttonTagInScope": null,
+              "dlItemTagAutoclosing": null,
+              "formTag": null,
+              "listItemTagAutoclosing": null,
+              "nobrTagInScope": null,
+              "pTagInButtonScope": null,
+              "parentTag": Object {
+                "instance": [Circular],
+                "tag": "div",
+              },
+            },
+          },
+          "_currentElement": <TodoList />,
+          "_instance": TodoList {
+            "_reactInternalInstance": [Circular],
+            "context": Object {},
+            "props": Object {},
+            "refs": Object {},
+            "state": Object {
+              "todos": Array [
+                Object {
+                  "done": false,
+                  "id": 1,
+                  "name": "Todo two",
+                },
+                Object {
+                  "done": false,
+                  "id": 2,
+                  "name": "Todo three",
+                },
+              ],
+            },
+            "updater": Object {
+              "enqueueCallback": [Function],
+              "enqueueCallbackInternal": [Function],
+              "enqueueElementInternal": [Function],
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceProps": [Function],
+              "enqueueReplacePropsInternal": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetProps": [Function],
+              "enqueueSetPropsInternal": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "_isOwnerNecessary": false,
+          "_mountImage": null,
+          "_mountIndex": 1,
+          "_mountOrder": 3,
+          "_pendingCallbacks": null,
+          "_pendingElement": null,
+          "_pendingForceUpdate": false,
+          "_pendingReplaceState": false,
+          "_pendingStateQueue": null,
+          "_renderedComponent": ReactDOMComponent {
+            "_currentElement": <ul>
+              <Todo
+                todo={
+                  Object {
+                    "done": false,
+                    "id": 1,
+                    "name": "Todo two",
+                  }
+                }
+              />
+              <Todo
+                todo={
+                  Object {
+                    "done": false,
+                    "id": 2,
+                    "name": "Todo three",
+                  }
+                }
+              />
+            </ul>,
+            "_isOwnerNecessary": false,
+            "_mountImage": null,
+            "_mountIndex": 0,
+            "_nodeWithLegacyProperties": <ul
+              data-reactid=".0.1"
+            >
+              <li
+                data-reactid=".0.1.$1"
+              >
+                <span
+                  class="todo-text "
+                  data-reactid=".0.1.$1.0"
+                >
+                  Todo two
+                </span>
+                <button
+                  class="delete"
+                  data-reactid=".0.1.$1.1"
+                >
+                   x 
+                </button>
+              </li>
+              <li
+                data-reactid=".0.1.$2"
+              >
+                <span
+                  class="todo-text "
+                  data-reactid=".0.1.$2.0"
+                >
+                  Todo three
+                </span>
+                <button
+                  class="delete"
+                  data-reactid=".0.1.$2.1"
+                >
+                   x 
+                </button>
+              </li>
+            </ul>,
+            "_previousStyle": null,
+            "_previousStyleCopy": null,
+            "_processedContextDev": Object {
+              "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                "aTagInScope": null,
+                "buttonTagInScope": null,
+                "dlItemTagAutoclosing": null,
+                "formTag": null,
+                "listItemTagAutoclosing": null,
+                "nobrTagInScope": null,
+                "pTagInButtonScope": null,
+                "parentTag": Object {
+                  "instance": [Circular],
+                  "tag": "ul",
+                },
+              },
+            },
+            "_renderedChildren": Object {
+              ".$1": ReactCompositeComponentWrapper {
+                "_context": Object {
+                  "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                    "aTagInScope": null,
+                    "buttonTagInScope": null,
+                    "dlItemTagAutoclosing": null,
+                    "formTag": null,
+                    "listItemTagAutoclosing": null,
+                    "nobrTagInScope": null,
+                    "pTagInButtonScope": null,
+                    "parentTag": Object {
+                      "instance": [Circular],
+                      "tag": "ul",
+                    },
+                  },
+                },
+                "_currentElement": <Todo
+                  todo={
+                    Object {
+                      "done": false,
+                      "id": 1,
+                      "name": "Todo two",
+                    }
+                  }
+                />,
+                "_instance": Todo {
+                  "_reactInternalInstance": [Circular],
+                  "context": Object {},
+                  "props": Object {
+                    "todo": Object {
+                      "done": false,
+                      "id": 1,
+                      "name": "Todo two",
+                    },
+                  },
+                  "refs": Object {},
+                  "state": null,
+                  "updater": Object {
+                    "enqueueCallback": [Function],
+                    "enqueueCallbackInternal": [Function],
+                    "enqueueElementInternal": [Function],
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceProps": [Function],
+                    "enqueueReplacePropsInternal": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetProps": [Function],
+                    "enqueueSetPropsInternal": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "_isOwnerNecessary": false,
+                "_mountImage": null,
+                "_mountIndex": 0,
+                "_mountOrder": 5,
+                "_pendingCallbacks": null,
+                "_pendingElement": null,
+                "_pendingForceUpdate": false,
+                "_pendingReplaceState": false,
+                "_pendingStateQueue": null,
+                "_renderedComponent": ReactDOMComponent {
+                  "_currentElement": <li>
+                    <span
+                      className="todo-text "
+                      onClick={[Function]}
+                    >
+                      Todo two
+                    </span>
+                    <button
+                      className="delete"
+                      onClick={[Function]}
+                    >
+                       x 
+                    </button>
+                  </li>,
+                  "_isOwnerNecessary": false,
+                  "_mountImage": null,
+                  "_mountIndex": 0,
+                  "_nodeWithLegacyProperties": <li
+                    data-reactid=".0.1.$1"
+                  >
+                    <span
+                      class="todo-text "
+                      data-reactid=".0.1.$1.0"
+                    >
+                      Todo two
+                    </span>
+                    <button
+                      class="delete"
+                      data-reactid=".0.1.$1.1"
+                    >
+                       x 
+                    </button>
+                  </li>,
+                  "_previousStyle": null,
+                  "_previousStyleCopy": null,
+                  "_processedContextDev": Object {
+                    "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                      "aTagInScope": null,
+                      "buttonTagInScope": null,
+                      "dlItemTagAutoclosing": null,
+                      "formTag": null,
+                      "listItemTagAutoclosing": Object {
+                        "instance": [Circular],
+                        "tag": "li",
+                      },
+                      "nobrTagInScope": null,
+                      "pTagInButtonScope": null,
+                      "parentTag": Object {
+                        "instance": [Circular],
+                        "tag": "li",
+                      },
+                    },
+                  },
+                  "_renderedChildren": Object {
+                    ".0": ReactDOMComponent {
+                      "_currentElement": <span
+                        className="todo-text "
+                        onClick={[Function]}
+                      >
+                        Todo two
+                      </span>,
+                      "_isOwnerNecessary": false,
+                      "_mountImage": null,
+                      "_mountIndex": 0,
+                      "_nodeWithLegacyProperties": <span
+                        class="todo-text "
+                        data-reactid=".0.1.$1.0"
+                      >
+                        Todo two
+                      </span>,
+                      "_previousStyle": null,
+                      "_previousStyleCopy": null,
+                      "_processedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": null,
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "span",
+                          },
+                        },
+                      },
+                      "_renderedChildren": null,
+                      "_rootNodeID": ".0.1.$1.0",
+                      "_tag": "span",
+                      "_topLevelWrapper": null,
+                      "_unprocessedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": null,
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                        },
+                      },
+                      "_warnedAboutRefsInRender": false,
+                      "_wrapperState": null,
+                    },
+                    ".1": ReactDOMComponent {
+                      "_currentElement": <button
+                        className="delete"
+                        onClick={[Function]}
+                      >
+                         x 
+                      </button>,
+                      "_isOwnerNecessary": false,
+                      "_mountImage": null,
+                      "_mountIndex": 1,
+                      "_nodeWithLegacyProperties": <button
+                        class="delete"
+                        data-reactid=".0.1.$1.1"
+                      >
+                         x 
+                      </button>,
+                      "_previousStyle": null,
+                      "_previousStyleCopy": null,
+                      "_processedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": Object {
+                            "instance": [Circular],
+                            "tag": "button",
+                          },
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": null,
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "button",
+                          },
+                        },
+                      },
+                      "_renderedChildren": null,
+                      "_rootNodeID": ".0.1.$1.1",
+                      "_tag": "button",
+                      "_topLevelWrapper": null,
+                      "_unprocessedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": null,
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                        },
+                      },
+                      "_warnedAboutRefsInRender": false,
+                      "_wrapperState": null,
+                    },
+                  },
+                  "_rootNodeID": ".0.1.$1",
+                  "_tag": "li",
+                  "_topLevelWrapper": null,
+                  "_unprocessedContextDev": Object {
+                    "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                      "aTagInScope": null,
+                      "buttonTagInScope": null,
+                      "dlItemTagAutoclosing": null,
+                      "formTag": null,
+                      "listItemTagAutoclosing": null,
+                      "nobrTagInScope": null,
+                      "pTagInButtonScope": null,
+                      "parentTag": Object {
+                        "instance": [Circular],
+                        "tag": "ul",
+                      },
+                    },
+                  },
+                  "_warnedAboutRefsInRender": false,
+                  "_wrapperState": null,
+                },
+                "_rootNodeID": ".0.1.$1",
+                "_topLevelWrapper": null,
+                "_warnedAboutRefsInRender": false,
+              },
+              ".$2": ReactCompositeComponentWrapper {
+                "_context": Object {
+                  "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                    "aTagInScope": null,
+                    "buttonTagInScope": null,
+                    "dlItemTagAutoclosing": null,
+                    "formTag": null,
+                    "listItemTagAutoclosing": null,
+                    "nobrTagInScope": null,
+                    "pTagInButtonScope": null,
+                    "parentTag": Object {
+                      "instance": [Circular],
+                      "tag": "ul",
+                    },
+                  },
+                },
+                "_currentElement": <Todo
+                  todo={
+                    Object {
+                      "done": false,
+                      "id": 2,
+                      "name": "Todo three",
+                    }
+                  }
+                />,
+                "_instance": Todo {
+                  "_reactInternalInstance": [Circular],
+                  "context": Object {},
+                  "props": Object {
+                    "todo": Object {
+                      "done": false,
+                      "id": 2,
+                      "name": "Todo three",
+                    },
+                  },
+                  "refs": Object {},
+                  "state": null,
+                  "updater": Object {
+                    "enqueueCallback": [Function],
+                    "enqueueCallbackInternal": [Function],
+                    "enqueueElementInternal": [Function],
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceProps": [Function],
+                    "enqueueReplacePropsInternal": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetProps": [Function],
+                    "enqueueSetPropsInternal": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "_isOwnerNecessary": false,
+                "_mountImage": null,
+                "_mountIndex": 1,
+                "_mountOrder": 6,
+                "_pendingCallbacks": null,
+                "_pendingElement": null,
+                "_pendingForceUpdate": false,
+                "_pendingReplaceState": false,
+                "_pendingStateQueue": null,
+                "_renderedComponent": ReactDOMComponent {
+                  "_currentElement": <li>
+                    <span
+                      className="todo-text "
+                      onClick={[Function]}
+                    >
+                      Todo three
+                    </span>
+                    <button
+                      className="delete"
+                      onClick={[Function]}
+                    >
+                       x 
+                    </button>
+                  </li>,
+                  "_isOwnerNecessary": false,
+                  "_mountImage": null,
+                  "_mountIndex": 0,
+                  "_nodeWithLegacyProperties": <li
+                    data-reactid=".0.1.$2"
+                  >
+                    <span
+                      class="todo-text "
+                      data-reactid=".0.1.$2.0"
+                    >
+                      Todo three
+                    </span>
+                    <button
+                      class="delete"
+                      data-reactid=".0.1.$2.1"
+                    >
+                       x 
+                    </button>
+                  </li>,
+                  "_previousStyle": null,
+                  "_previousStyleCopy": null,
+                  "_processedContextDev": Object {
+                    "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                      "aTagInScope": null,
+                      "buttonTagInScope": null,
+                      "dlItemTagAutoclosing": null,
+                      "formTag": null,
+                      "listItemTagAutoclosing": Object {
+                        "instance": [Circular],
+                        "tag": "li",
+                      },
+                      "nobrTagInScope": null,
+                      "pTagInButtonScope": null,
+                      "parentTag": Object {
+                        "instance": [Circular],
+                        "tag": "li",
+                      },
+                    },
+                  },
+                  "_renderedChildren": Object {
+                    ".0": ReactDOMComponent {
+                      "_currentElement": <span
+                        className="todo-text "
+                        onClick={[Function]}
+                      >
+                        Todo three
+                      </span>,
+                      "_isOwnerNecessary": false,
+                      "_mountImage": null,
+                      "_mountIndex": 0,
+                      "_nodeWithLegacyProperties": <span
+                        class="todo-text "
+                        data-reactid=".0.1.$2.0"
+                      >
+                        Todo three
+                      </span>,
+                      "_previousStyle": null,
+                      "_previousStyleCopy": null,
+                      "_processedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": null,
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "span",
+                          },
+                        },
+                      },
+                      "_renderedChildren": null,
+                      "_rootNodeID": ".0.1.$2.0",
+                      "_tag": "span",
+                      "_topLevelWrapper": null,
+                      "_unprocessedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": null,
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                        },
+                      },
+                      "_warnedAboutRefsInRender": false,
+                      "_wrapperState": null,
+                    },
+                    ".1": ReactDOMComponent {
+                      "_currentElement": <button
+                        className="delete"
+                        onClick={[Function]}
+                      >
+                         x 
+                      </button>,
+                      "_isOwnerNecessary": false,
+                      "_mountImage": null,
+                      "_mountIndex": 1,
+                      "_nodeWithLegacyProperties": <button
+                        class="delete"
+                        data-reactid=".0.1.$2.1"
+                      >
+                         x 
+                      </button>,
+                      "_previousStyle": null,
+                      "_previousStyleCopy": null,
+                      "_processedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": Object {
+                            "instance": [Circular],
+                            "tag": "button",
+                          },
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": null,
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "button",
+                          },
+                        },
+                      },
+                      "_renderedChildren": null,
+                      "_rootNodeID": ".0.1.$2.1",
+                      "_tag": "button",
+                      "_topLevelWrapper": null,
+                      "_unprocessedContextDev": Object {
+                        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                          "aTagInScope": null,
+                          "buttonTagInScope": null,
+                          "dlItemTagAutoclosing": null,
+                          "formTag": null,
+                          "listItemTagAutoclosing": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                          "nobrTagInScope": null,
+                          "pTagInButtonScope": null,
+                          "parentTag": Object {
+                            "instance": [Circular],
+                            "tag": "li",
+                          },
+                        },
+                      },
+                      "_warnedAboutRefsInRender": false,
+                      "_wrapperState": null,
+                    },
+                  },
+                  "_rootNodeID": ".0.1.$2",
+                  "_tag": "li",
+                  "_topLevelWrapper": null,
+                  "_unprocessedContextDev": Object {
+                    "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                      "aTagInScope": null,
+                      "buttonTagInScope": null,
+                      "dlItemTagAutoclosing": null,
+                      "formTag": null,
+                      "listItemTagAutoclosing": null,
+                      "nobrTagInScope": null,
+                      "pTagInButtonScope": null,
+                      "parentTag": Object {
+                        "instance": [Circular],
+                        "tag": "ul",
+                      },
+                    },
+                  },
+                  "_warnedAboutRefsInRender": false,
+                  "_wrapperState": null,
+                },
+                "_rootNodeID": ".0.1.$2",
+                "_topLevelWrapper": null,
+                "_warnedAboutRefsInRender": false,
+              },
+            },
+            "_rootNodeID": ".0.1",
+            "_tag": "ul",
+            "_topLevelWrapper": null,
+            "_unprocessedContextDev": Object {
+              "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                "aTagInScope": null,
+                "buttonTagInScope": null,
+                "dlItemTagAutoclosing": null,
+                "formTag": null,
+                "listItemTagAutoclosing": null,
+                "nobrTagInScope": null,
+                "pTagInButtonScope": null,
+                "parentTag": Object {
+                  "instance": [Circular],
+                  "tag": "div",
+                },
+              },
+            },
+            "_warnedAboutRefsInRender": false,
+            "_wrapperState": null,
+          },
+          "_rootNodeID": ".0.1",
+          "_topLevelWrapper": null,
+          "_warnedAboutRefsInRender": false,
+        },
+        ".2": ReactCompositeComponentWrapper {
+          "_context": Object {
+            "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+              "aTagInScope": null,
+              "buttonTagInScope": null,
+              "dlItemTagAutoclosing": null,
+              "formTag": null,
+              "listItemTagAutoclosing": null,
+              "nobrTagInScope": null,
+              "pTagInButtonScope": null,
+              "parentTag": Object {
+                "instance": [Circular],
+                "tag": "div",
+              },
+            },
+          },
+          "_currentElement": <AddTodo />,
+          "_instance": AddTodo {
+            "_reactInternalInstance": [Circular],
+            "context": Object {},
+            "props": Object {},
+            "refs": Object {
+              "todoTitle": <input
+                data-reactid=".0.2.0"
+                placeholder="Todo four"
+                type="text"
+              />,
+            },
+            "state": null,
+            "updater": Object {
+              "enqueueCallback": [Function],
+              "enqueueCallbackInternal": [Function],
+              "enqueueElementInternal": [Function],
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceProps": [Function],
+              "enqueueReplacePropsInternal": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetProps": [Function],
+              "enqueueSetPropsInternal": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "_isOwnerNecessary": false,
+          "_mountImage": null,
+          "_mountIndex": 2,
+          "_mountOrder": 7,
+          "_pendingCallbacks": null,
+          "_pendingElement": null,
+          "_pendingForceUpdate": false,
+          "_pendingReplaceState": false,
+          "_pendingStateQueue": null,
+          "_renderedComponent": ReactDOMComponent {
+            "_currentElement": <div
+              className="add-todo"
+            >
+              <input
+                placeholder="Todo four"
+                type="text"
+              />
+              <button
+                className="add-button"
+                onClick={[Function]}
+              >
+                Add Todo
+              </button>
+            </div>,
+            "_isOwnerNecessary": false,
+            "_mountImage": null,
+            "_mountIndex": 0,
+            "_nodeWithLegacyProperties": <div
+              class="add-todo"
+              data-reactid=".0.2"
+            >
+              <input
+                data-reactid=".0.2.0"
+                placeholder="Todo four"
+                type="text"
+              />
+              <button
+                class="add-button"
+                data-reactid=".0.2.1"
+              >
+                Add Todo
+              </button>
+            </div>,
+            "_previousStyle": null,
+            "_previousStyleCopy": null,
+            "_processedContextDev": Object {
+              "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                "aTagInScope": null,
+                "buttonTagInScope": null,
+                "dlItemTagAutoclosing": null,
+                "formTag": null,
+                "listItemTagAutoclosing": null,
+                "nobrTagInScope": null,
+                "pTagInButtonScope": null,
+                "parentTag": Object {
+                  "instance": [Circular],
+                  "tag": "div",
+                },
+              },
+            },
+            "_renderedChildren": Object {
+              ".0": ReactDOMComponent {
+                "_currentElement": <input
+                  placeholder="Todo four"
+                  type="text"
+                />,
+                "_isOwnerNecessary": false,
+                "_mountImage": null,
+                "_mountIndex": 0,
+                "_nodeWithLegacyProperties": <input
+                  data-reactid=".0.2.0"
+                  placeholder="Todo four"
+                  type="text"
+                />,
+                "_previousStyle": null,
+                "_previousStyleCopy": null,
+                "_processedContextDev": Object {
+                  "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                    "aTagInScope": null,
+                    "buttonTagInScope": null,
+                    "dlItemTagAutoclosing": null,
+                    "formTag": null,
+                    "listItemTagAutoclosing": null,
+                    "nobrTagInScope": null,
+                    "pTagInButtonScope": null,
+                    "parentTag": Object {
+                      "instance": [Circular],
+                      "tag": "input",
+                    },
+                  },
+                },
+                "_renderedChildren": null,
+                "_rootNodeID": ".0.2.0",
+                "_tag": "input",
+                "_topLevelWrapper": null,
+                "_unprocessedContextDev": Object {
+                  "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                    "aTagInScope": null,
+                    "buttonTagInScope": null,
+                    "dlItemTagAutoclosing": null,
+                    "formTag": null,
+                    "listItemTagAutoclosing": null,
+                    "nobrTagInScope": null,
+                    "pTagInButtonScope": null,
+                    "parentTag": Object {
+                      "instance": [Circular],
+                      "tag": "div",
+                    },
+                  },
+                },
+                "_warnedAboutRefsInRender": false,
+                "_wrapperState": Object {
+                  "initialChecked": false,
+                  "initialValue": null,
+                  "onChange": [Function],
+                },
+              },
+              ".1": ReactDOMComponent {
+                "_currentElement": <button
+                  className="add-button"
+                  onClick={[Function]}
+                >
+                  Add Todo
+                </button>,
+                "_isOwnerNecessary": false,
+                "_mountImage": null,
+                "_mountIndex": 1,
+                "_nodeWithLegacyProperties": <button
+                  class="add-button"
+                  data-reactid=".0.2.1"
+                >
+                  Add Todo
+                </button>,
+                "_previousStyle": null,
+                "_previousStyleCopy": null,
+                "_processedContextDev": Object {
+                  "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                    "aTagInScope": null,
+                    "buttonTagInScope": Object {
+                      "instance": [Circular],
+                      "tag": "button",
+                    },
+                    "dlItemTagAutoclosing": null,
+                    "formTag": null,
+                    "listItemTagAutoclosing": null,
+                    "nobrTagInScope": null,
+                    "pTagInButtonScope": null,
+                    "parentTag": Object {
+                      "instance": [Circular],
+                      "tag": "button",
+                    },
+                  },
+                },
+                "_renderedChildren": null,
+                "_rootNodeID": ".0.2.1",
+                "_tag": "button",
+                "_topLevelWrapper": null,
+                "_unprocessedContextDev": Object {
+                  "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                    "aTagInScope": null,
+                    "buttonTagInScope": null,
+                    "dlItemTagAutoclosing": null,
+                    "formTag": null,
+                    "listItemTagAutoclosing": null,
+                    "nobrTagInScope": null,
+                    "pTagInButtonScope": null,
+                    "parentTag": Object {
+                      "instance": [Circular],
+                      "tag": "div",
+                    },
+                  },
+                },
+                "_warnedAboutRefsInRender": false,
+                "_wrapperState": null,
+              },
+            },
+            "_rootNodeID": ".0.2",
+            "_tag": "div",
+            "_topLevelWrapper": null,
+            "_unprocessedContextDev": Object {
+              "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+                "aTagInScope": null,
+                "buttonTagInScope": null,
+                "dlItemTagAutoclosing": null,
+                "formTag": null,
+                "listItemTagAutoclosing": null,
+                "nobrTagInScope": null,
+                "pTagInButtonScope": null,
+                "parentTag": Object {
+                  "instance": [Circular],
+                  "tag": "div",
+                },
+              },
+            },
+            "_warnedAboutRefsInRender": false,
+            "_wrapperState": null,
+          },
+          "_rootNodeID": ".0.2",
+          "_topLevelWrapper": null,
+          "_warnedAboutRefsInRender": false,
+        },
+      },
+      "_rootNodeID": ".0",
+      "_tag": "div",
+      "_topLevelWrapper": null,
+      "_unprocessedContextDev": Object {
+        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+          "aTagInScope": null,
+          "buttonTagInScope": null,
+          "dlItemTagAutoclosing": null,
+          "formTag": null,
+          "listItemTagAutoclosing": null,
+          "nobrTagInScope": null,
+          "pTagInButtonScope": null,
+          "parentTag": Object {
+            "instance": null,
+            "tag": "div",
+          },
+        },
+      },
+      "_warnedAboutRefsInRender": false,
+      "_wrapperState": null,
+    },
+    "_rootNodeID": ".0",
+    "_topLevelWrapper": ReactCompositeComponentWrapper {
+      "_context": Object {
+        "__validateDOMNesting_ancestorInfo$zkn6orpd4bd": Object {
+          "aTagInScope": null,
+          "buttonTagInScope": null,
+          "dlItemTagAutoclosing": null,
+          "formTag": null,
+          "listItemTagAutoclosing": null,
+          "nobrTagInScope": null,
+          "pTagInButtonScope": null,
+          "parentTag": Object {
+            "instance": null,
+            "tag": "div",
+          },
+        },
+      },
+      "_currentElement": <TopLevelWrapper
+        $$typeof={Symbol(react.element)}
+        _owner={null}
+        _store={Object {}}
+        key={null}
+        props={Object {}}
+        ref={null}
+        type={[Function]}
+      />,
+      "_instance": TopLevelWrapper {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": <App />,
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceProps": [Function],
+          "enqueueReplacePropsInternal": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetProps": [Function],
+          "enqueueSetPropsInternal": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "_isOwnerNecessary": false,
+      "_mountImage": null,
+      "_mountIndex": 0,
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": [Circular],
+      "_rootNodeID": ".0",
+      "_topLevelWrapper": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "props": Object {},
+  "refs": Object {},
+  "state": null,
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceProps": [Function],
+    "enqueueReplacePropsInternal": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetProps": [Function],
+    "enqueueSetPropsInternal": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;

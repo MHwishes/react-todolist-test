@@ -5,7 +5,8 @@
   "main": "app/main.jsx",
   "scripts": {
     "lint": "eslint 'app/**/*.@(js|jsx)'",
-    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
+    "test": "jest",
+    "test-update": "jest --updateSnapshot",
     "build": "webpack",
     "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base app",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "babel-runtime": "~6.2.0",
+    "jest": "^23.5.0",
     "react": "~0.14.3",
     "react-dom": "~0.14.3"
   },
